@@ -1,0 +1,133 @@
+body {
+  background-color: #a2adad;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(/realistic-fire-flare-effect-background-free-vector.jpg);
+}
+.root {
+  width: 800px;
+  height: 600px;
+  border: 5px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252831;
+  background: url(/bg.png);
+}
+.product {
+  height: 400px;
+  width: 600px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282f40;
+}
+.left {
+  height: 100%;
+  width: 100%;
+  border-radius: 0px 50% 50% 0px;
+  background-color: rgb(235, 91, 19);
+  position: relative;
+}
+.shoe {
+  position: absolute;
+  top: 50px;
+  left: -120px;
+}
+.right {
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+  padding: 25px;
+}
+.content {
+  margin-top: 80px;
+}
+.logo {
+  color: rgb(189, 85, 48);
+  font-family: "muli";
+  font-size: 20px;
+  font-weight: 600;
+}
+.winter {
+  font-size: 19px;
+}
+.men {
+  font-size: 28px;
+  font-weight: 525;
+}
+.price {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 30px;
+}
+.price1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.price2 {
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.size {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.size-num span {
+  margin-right: 30px;
+}
+.yellow {
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.black {
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+}
+.blue {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+}
+.colour-box {
+  display: flex;
+  gap: 25px;
+}
+.colour {
+  margin-top: 26px;
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+.s {
+  font-size: 10px;
+}
+.wm {
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+}
+.fotter {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  margin-left: 15px;
+}
+.fotter span {
+  font-size: 12px;
+}
